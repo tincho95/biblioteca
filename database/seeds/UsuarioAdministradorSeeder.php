@@ -15,8 +15,8 @@ class UsuarioAdministradorSeeder extends Seeder
         $usuario = Usuario::create([
             'usuario' => 'admin',
             'nombre' => 'Administrador',
-            'email' => 'rgt90@hotmail.com',
-            'password' => Hash::make('pass123')
+            'email' => 'admin@hotmail.com',
+            'password' => Hash::make('1234')
         ]);
 
         $usuario->roles()->sync(1);
