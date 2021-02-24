@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@yield('titulo', 'Biblioteca') | tutorialesvirtuales</title>
+    <title>@yield('titulo', 'Biblioteca')</title>
     <!-- Tell the browser to be responsive to screen width -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset("assets/$theme/plugins/fontawesome-free/css/all.min.css")}}">

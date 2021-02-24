@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ValidacionUsuario;
+use App\Models\Admin\Rol;
+use App\Models\Seguridad\Usuario;
 use Illuminate\Http\Request;
 
 class UsuarioController extends Controller
