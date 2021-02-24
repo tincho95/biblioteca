@@ -38,7 +38,7 @@ return [
         'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],
-            'ignore_exceptions' => false,
+            //'ignore_exceptions' => false,
         ],
 
         'single' => [
@@ -90,7 +90,7 @@ return [
             'driver' => 'errorlog',
             'level' => 'debug',
         ],
-
+/*
         'null' => [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
@@ -98,7 +98,7 @@ return [
 
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
-        ],
+        ],*/
     ],
 
 ];
